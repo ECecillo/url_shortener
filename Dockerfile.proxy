@@ -11,6 +11,6 @@ FROM gcr.io/distroless/static-debian11
 # Copy the binary and necessary files for the user
 COPY --from=base /main .
 
-EXPOSE 8080
+EXPOSE 8081
 
 CMD ["./main"]
